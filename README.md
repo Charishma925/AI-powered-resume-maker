@@ -28,16 +28,16 @@ Automatically rank resumes based on their relevance to a job description using N
 
 ## Project Structure
 resume-ranker/
-├── app.py # Flask app
-├── utils.py # Helper functions (NLP, scoring, etc.)
-├── templates/
-│ └── index.html # Web UI
-├── static/
-│ └── style.css # Optional styling
-├── resumes/ # Uploaded PDF resumes
-├── ranked_reports/ # Output reports (CSV)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+- app.py # Flask app
+- utils.py # Helper functions (NLP, scoring, etc.)
+- templates/
+- index.html # Web UI
+- static/
+- style.css # Optional styling
+- resumes/ # Uploaded PDF resumes
+- ranked_reports/ # Output reports (CSV)
+- requirements.txt # Python dependencies
+- README.md # Project documentation
 
 ## How It Works
 
